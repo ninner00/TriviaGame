@@ -23,7 +23,7 @@ $(document).ready(function() {
 	   	var timer = {
 	   		// start function
 	   		
-	   		startTime: 5,
+	   		startTime: 15,
 	   		start: function(){
 
    				countDownTimer = setInterval(timer.countDown, 1000);
@@ -94,7 +94,7 @@ $(document).ready(function() {
 		 	},	    
 	      	// reset function
 	    	reset: function(){
-	    		this.startTime = 5;
+	    		this.startTime = 15;
 	    		$('#timer').html('<h3>Time Remaining: ' + this.startTime + ' Seconds!</h3>');
 	    	},
 	    	
@@ -126,7 +126,7 @@ var q1 = {
 				 'D. No Dout'],
 	flags : [false, false, true, false],
 	answer : 'C. Nirvana - Nevermind',
-	image: '<img src="images/Nevermind.jpg" />'
+	image: '<img src="images/nevermind.jpg" />'
 };
 
 var q2 = {

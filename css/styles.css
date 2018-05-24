@@ -25,3 +25,5 @@ body {
   
   padding-top: 100px;
 }
+
+#correctImageDiv img { width: 300px; }
