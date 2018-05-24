@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<title>90's Music Cover Art Trivia Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+   
+</head>
+
+<body>
+	<div class="jumbotron ">
+		<div class="container">
+			<header class="text-center">
+				<h1>90's Music Cover Art Trivia Game</h1>
+			</header>
+			<hr>
+			<!-- <div class="game-container" id="startButton"> Start the Game! </div> -->
+			<div class="game-container" id="timer"></div>
+			
+			<div class="question"></div>
+			<div class="answers" style="padding: 40px 70px; display: none;">
+				<div>
+					<button type="button" class="btn btn-outline-dark btn-block buttonOption" id="button1"></button>
+				</div>
+				<div>
+					<button type="button" class="btn btn-outline-dark btn-block buttonOption" id="button2"></button>
+				</div>
+				<div>
+					<button type="button" class="btn btn-outline-dark btn-block buttonOption" id="button3"></button>
+				</div>
+				<div>
+					<button type="button" class="btn btn-outline-dark btn-block buttonOption" id="button4"></button>
+				</div>
+			</div>
+			<div id="timesUp"></div>
+		<!-- 	<div id="wrong"></div>
+			<div id="correct"></div>
+			<div id="unanswered"></div> -->
+			<div id="correctImageDiv"></div>
+			<div class="game-container" id="final-score" style="display: none;">
+				<div>
+        			<h3>Correct Answers: </h3><span id="winsCount">0</span>
+      			</div>
+				<div>
+					<h3>Incorrect Answer: </h3><span id="lossesCount">0</span>
+				</div>
+				<div>
+					<h3>Unanswered: </h3><span id="unansweredCount">0</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+
+<!-- /////// Tuesday May 22nd 2:00pm - I have decided to scrap everything and go a different way. Arrays... /////// -->
+			<!-- <div id="Q1">
+				<div>
+					<h5>Here is an easy one for you:<br>
+					A baby swimming in an aqua pool and a dollar bill on a fish hook.<h5>
+				</div>
+				<div id="timesUp"></div>
+				<div id="options" style="padding: 40px 70px;">
+					<button type="button" class="btn btn-outline-dark btn-block" id="wrong">Nada Surf</button>
+					<button type="button" class="btn btn-outline-dark btn-block" id="correct">Nirvana - Nevermind</button>
+					<button type="button" class="btn btn-outline-dark btn-block" id="wrong">New Order</button>
+					<button type="button" class="btn btn-outline-dark btn-block" id="wrong">No Doubt</button>
+				</div>
+				<div style="display: none;" id="incorrectDiv1">Nope!<br>The Correct Answer was: Nirvana - Nevermind</div>
+				<div style="display: none;" id="timesOutDiv1"><br>The Correct Answer was: Nirvana - Nevermind</div>
+				<div id="correctImageDiv" style="display: none;">
+					<img src="images/Nevermind.jpg" style="height:200px" alt="Nirvana - Nevermind">
+				</div>
+			</div>
+			<div id="Q2" style="display: none;">
+				<div>
+					<h5>Here is an easy one for you:<br>
+					A baby swimming in an aqua pool and a dollar bill on a fish hook.<h5>
+				</div>
+				<div id="timesUp"></div>
+				<div id="options" style="padding: 40px 70px;">
+					<button type="button" class="btn btn-outline-dark btn-block" id="wrong">Nada Surf</button>
+					<button type="button" class="btn btn-outline-dark btn-block" id="correct">Nirvana - Nevermind</button>
+					<button type="button" class="btn btn-outline-dark btn-block" id="wrong">New Order</button>
+					<button type="button" class="btn btn-outline-dark btn-block" id="wrong">No Doubt</button>
+				</div>
+				<div style="display: none;" id="incorrectDiv1">Nope!<br>The Correct Answer was: Nirvana - Nevermind</div>
+				<div style="display: none;" id="timesOutDiv1"><br>The Correct Answer was: Nirvana - Nevermind</div>
+				<div id="correctImageDiv" style="display: none;">
+					<img src="images/Nevermind.jpg" style="height:200px" alt="Nirvana - Nevermind">
+				</div>
+			</div>
+			<div class="game-container" id="Q3" style="display: none;"></div>
+			<div class="game-container" id="Q4" style="display: none;"></div>
+			<div class="game-container" id="Q5" style="display: none;"></div>
+			<div class="game-container" id="Q6" style="display: none;"></div>
+			<div class="game-container" id="Q7" style="display: none;"></div>
+			<div class="game-container" id="Q8" style="display: none;"></div>
+			<div class="game-container" id="Q9" style="display: none;"></div>
+			<div class="game-container" id="Q10" style="display: none;"></div> -->
+<!-- 			<div class="game-container" id="final-score" style="display: none;" >
+				<div>
+        			<h3>Correct Answers: </h3><span id="winsCount">0</span>
+      			</div>
+				<div>
+					<h3>Incorrect Answer: </h3><span id="lossesCount">0</span>
+				</div>
+				<div>
+					<h3>Unanswered: </h3><span id="unansweredCount">0</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</body> -->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="javascript/triviagame.js"></script>
+</html>
